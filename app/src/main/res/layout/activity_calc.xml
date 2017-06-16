@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:padding="@dimen/standard_padding"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/number_in_currency"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_text_size"
+            android:layout_weight="3"
+            android:inputType="numberDecimal"
+            tools:text="110"
+            />
+        <TextView
+            android:id="@+id/currency_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_text_size"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            android:paddingLeft="@dimen/standard_padding"
+            tools:text="CUR"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/equals"
+            android:textSize="@dimen/calc_text_size"
+            android:paddingLeft="@dimen/standard_padding"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            />
+
+        <TextView
+            android:id="@+id/result_in_rub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_text_size"
+            android:gravity="center_vertical"
+            android:layout_weight="3"
+            tools:text="220"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_text_size"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            android:paddingLeft="@dimen/standard_padding"
+            android:text="@string/rub_currency_name"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:padding="@dimen/standard_padding"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/number_in_rub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_text_size"
+            android:layout_weight="3"
+            android:inputType="numberDecimal"
+            tools:text="220"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_text_size"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            android:paddingLeft="@dimen/standard_padding"
+            android:text="@string/rub_currency_name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/equals"
+            android:textSize="@dimen/calc_text_size"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/standard_padding"
+            android:layout_weight="4"
+            />
+
+        <TextView
+            android:id="@+id/result_in_currency"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_text_size"
+            android:gravity="center_vertical"
+            android:layout_weight="3"
+            tools:text="110"
+            />
+
+        <TextView
+            android:id="@+id/currency_result_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_text_size"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            android:paddingLeft="@dimen/standard_padding"
+            tools:text="CUR"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

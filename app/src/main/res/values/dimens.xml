@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_list_item">15dp</dimen>
+    <dimen name="standard_padding">8dp</dimen>
+    <dimen name="standard_margin">30dp</dimen>
+    <dimen name="calc_text_size">12sp</dimen>
+</resources>
